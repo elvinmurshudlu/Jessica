@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/jessica.css">
+</head>
+<body >
+    
+        
+        <div class="profile">
+            <div class="profile--picture">
+                <img src="/assets/img/Gabrielle.svg">
+                <h1>Jessica</h1>
+                <p class="middle">MIDDLE SCHOOL TEACHER</p>
+                <p class="text">Teaches English to kids between 12-14, she loves traveling and loves that she gets the same vacations as the students. She lives with her partner and she usually travels with her.</p>
+            </div>
+        </div>
+        <div class="bio">
+            <div class="bio--quote">
+                <span><img class="bottom" src="./assets/img/bottom.svg"></span>
+                <p>I love deals. The cheaper the better, I also never look for fancy accomodations. 
+                    A bed is all I need.</p>
+                <span><img class="top" src="./assets/img/top.svg"></span>
+            </div>
+            <div class="bio--age">
+                <h1>Demographics</h1>
+                <p>Ages: 19-35</p>
+                <h1>Devices</h1>
+                <p>Mobile</p>
+                <p>Tablet</p>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="traits">
+                <h2>Traits</h2>
+                <label for="first">Budget Concious</label><br>
+                <span>-</span>
+                <input id="first" type="range" min="1" max="10" value="7"><span>+</span><br>
+                <label for="second">Tech Saavy</label><br>
+                <span>-</span>
+                <input id="second" type="range" min="1" max="10" value="5"><span>+</span><br>
+                <label for="third">Autoditact</label><br>
+                <span>-</span>
+                <input id="third" type="range" min="1" max="10" value="10"><span>+</span>
+            </div>
+            <div class="info">
+                <span>Young</span>
+                <span>Proactive</span><br>
+                <span>Organized</span>
+                <span>Extrovert</span><br>
+                <span>Responsible</span>
+                <span>Social</span><br>
+                <span>Passionate</span>
+                <span>Student</span>
+            </div>
+        </div>
+        <div class="needs">
+
+            <div class="needs-quote">
+            <h1>Needs</h1>
+            <h2>Affordable Options</h2>
+            <h2>Couples destinations</h2>
+            <h2>Safe places to visit</h2>
+            <h2>Things to do</h2>        
+            </div>
+            <label class="position"  for="check">
+                <input id="check" type="checkbox" onclick="toggle()" />
+                <span class="slide"></span>
+            </label>
+    
+            
+        </div>
+      
+
+        <script>
+            function toggle() {
+              var element = document.body;
+              element.classList.toggle("darkmode");
+            }
+          </script>
+
+
+
+
+    
+
+    
+    
+</body>
+</html>
