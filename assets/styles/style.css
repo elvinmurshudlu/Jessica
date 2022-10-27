@@ -177,7 +177,7 @@ body{
 }
 
 .info >span{
-    
+    transition: 1.5s;
     background-color: red;
     padding: 3px 7px;
     margin-right: 5px;
@@ -240,6 +240,78 @@ body{
 }
 
 
+.darkmode .profile--picture  {
+    background-color: rgb(58, 58, 58);
+    border: 1px solid white;
+    color: white;
+}
+.profile--picture{
+    transition: 1.5s;
+}
+
+.darkmode .bio--quote{
+    background-color: rgb(58, 58, 58);
+    border: 1px solid white;
+    color: white;
+
+}
+.bio--quote{
+    transition: 1.5s;
+}
+
+
+
+.darkmode .bio--age{
+    background-color: rgb(58, 58, 58);
+    border: 1px solid white;
+    color: white;
+
+}
+
+.bio--age{
+    transition: 1.5s;
+}
+
+
+
+.darkmode .traits{
+    background-color: rgb(58, 58, 58);
+    border: 1px solid white;
+    color: white;
+
+}
+
+.traits{
+    transition: 1.5s;
+}
+
+
+.darkmode .info{
+    background-color: rgb(58, 58, 58);
+    border: 1px solid white;
+    color: white;
+}
+
+
+.darkmode .info span{
+    background-color: rgb(109, 1, 1);
+}
+
+
+.info{
+    transition: 1.5s;
+}
+
+
+.darkmode .needs-quote{
+    background-color: rgb(58, 58, 58);
+    border: 1px solid white;
+    color: white;
+}
+.needs-quote{
+    transition: 1.5s;
+}
+
 .night{
     font-size: 24px;
 }
@@ -280,6 +352,10 @@ input:checked + .needs > .position .night{
     height: 0;
   }
   
+  input:checked + label{
+    color: white;
+  }
+
   input:checked + .slide::before {
     transform: translateX(30px);
     background-color: white;
